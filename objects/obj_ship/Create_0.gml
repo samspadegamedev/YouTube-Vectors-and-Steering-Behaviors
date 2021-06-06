@@ -1,4 +1,4 @@
-/// @description Boid
+/// @description Ship
 
 
 //initialize variables

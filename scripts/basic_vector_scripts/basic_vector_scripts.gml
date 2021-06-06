@@ -1,4 +1,4 @@
-/// Script Functions
+/// Vector Script Functions
 
 function vector(_x, _y) constructor {
 	x = _x;
@@ -27,3 +27,6 @@ function vector(_x, _y) constructor {
 	}
 
 }
+
+
+

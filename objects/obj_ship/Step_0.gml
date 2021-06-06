@@ -1,7 +1,7 @@
-/// @description Boid
+/// @description Ship
 
 
-//get direction
+//get direction and convert it to x and y force
 var _dir, _accel_x, _accel_y; 
 _dir = point_direction(x, y, mouse_x, mouse_y);
 _accel_x = lengthdir_x(accel_force, _dir);
