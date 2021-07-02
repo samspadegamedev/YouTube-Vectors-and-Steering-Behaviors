@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"8ccf42a8-c2f7-4db2-969f-c4615de0f01c","path":"sprites/spr_pixel_ship/spr_pixel_ship.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8ccf42a8-c2f7-4db2-969f-c4615de0f01c","path":"sprites/spr_pixel_ship/spr_pixel_ship.yy",},"LayerId":{"name":"c6f86f3c-e2eb-4214-a101-3eb7469a9db7","path":"sprites/spr_pixel_ship/spr_pixel_ship.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_pixel_ship","path":"sprites/spr_pixel_ship/spr_pixel_ship.yy",},"resourceVersion":"1.0","name":"8ccf42a8-c2f7-4db2-969f-c4615de0f01c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"272acf1f-4320-4fdd-af3d-c680be86aec0","path":"sprites/spr_pixel_ship_blue/spr_pixel_ship_blue.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"272acf1f-4320-4fdd-af3d-c680be86aec0","path":"sprites/spr_pixel_ship_blue/spr_pixel_ship_blue.yy",},"LayerId":{"name":"bebb0d90-cbbd-49cb-80dc-dd0e915aeac0","path":"sprites/spr_pixel_ship_blue/spr_pixel_ship_blue.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_pixel_ship_blue","path":"sprites/spr_pixel_ship_blue/spr_pixel_ship_blue.yy",},"resourceVersion":"1.0","name":"272acf1f-4320-4fdd-af3d-c680be86aec0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_pixel_ship","path":"sprites/spr_pixel_ship/spr_pixel_ship.yy",},
+    "spriteId": {"name":"spr_pixel_ship_blue","path":"sprites/spr_pixel_ship_blue/spr_pixel_ship_blue.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"00c8b8d2-f137-4e4e-ae93-8e3e9bc21799","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8ccf42a8-c2f7-4db2-969f-c4615de0f01c","path":"sprites/spr_pixel_ship/spr_pixel_ship.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2db24e83-3233-489a-a871-99bc7a7fc244","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"272acf1f-4320-4fdd-af3d-c680be86aec0","path":"sprites/spr_pixel_ship_blue/spr_pixel_ship_blue.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 20,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_pixel_ship","path":"sprites/spr_pixel_ship/spr_pixel_ship.yy",},
+    "parent": {"name":"spr_pixel_ship_blue","path":"sprites/spr_pixel_ship_blue/spr_pixel_ship_blue.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_pixel_ship",
+    "name": "spr_pixel_ship_blue",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c6f86f3c-e2eb-4214-a101-3eb7469a9db7","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bebb0d90-cbbd-49cb-80dc-dd0e915aeac0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Art.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_pixel_ship",
+  "name": "spr_pixel_ship_blue",
   "tags": [],
   "resourceType": "GMSprite",
 }

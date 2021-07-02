@@ -1,12 +1,14 @@
 {
   "resources": [
-    {"id":{"name":"spr_planet","path":"sprites/spr_planet/spr_planet.yy",},"order":1,},
+    {"id":{"name":"spr_planet","path":"sprites/spr_planet/spr_planet.yy",},"order":2,},
     {"id":{"name":"basic_vector_scripts","path":"scripts/basic_vector_scripts/basic_vector_scripts.yy",},"order":2,},
-    {"id":{"name":"spr_pixel_ship","path":"sprites/spr_pixel_ship/spr_pixel_ship.yy",},"order":0,},
-    {"id":{"name":"license","path":"notes/license/license.yy",},"order":3,},
-    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":2,},
+    {"id":{"name":"spr_pixel_ship_blue","path":"sprites/spr_pixel_ship_blue/spr_pixel_ship_blue.yy",},"order":0,},
+    {"id":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},"order":4,},
+    {"id":{"name":"spr_pixel_ship_red","path":"sprites/spr_pixel_ship_red/spr_pixel_ship_red.yy",},"order":1,},
+    {"id":{"name":"license","path":"notes/license/license.yy",},"order":4,},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":3,},
     {"id":{"name":"rm_space","path":"rooms/rm_space/rm_space.yy",},"order":1,},
-    {"id":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},"order":3,},
+    {"id":{"name":"obj_ship_no_limit","path":"objects/obj_ship_no_limit/obj_ship_no_limit.yy",},"order":3,},
   ],
   "Options": [
     {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},

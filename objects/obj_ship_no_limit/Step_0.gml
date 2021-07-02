@@ -1,4 +1,4 @@
-/// @description Ship 
+/// @description Ship No Limit
 
 
 //get direction and convert it to x and y force
@@ -10,7 +10,6 @@ _accel_y = lengthdir_y(accel_force, _dir);
 //update vectors
 acceleration.set(_accel_x, _accel_y);
 velocity.add(acceleration);
-velocity.limit_magnitude(max_speed);
 
 //update built in variables
 x += velocity.x;

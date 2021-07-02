@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pixel_ship_red",
-    "path": "sprites/spr_pixel_ship_red/spr_pixel_ship_red.yy",
+    "name": "spr_pixel_ship_blue",
+    "path": "sprites/spr_pixel_ship_blue/spr_pixel_ship_blue.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "YouTube Vectors Public.yyp",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ship",
+  "name": "obj_ship_no_limit",
   "tags": [],
   "resourceType": "GMObject",
 }
