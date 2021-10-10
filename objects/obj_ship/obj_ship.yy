@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pixel_ship_red",
-    "path": "sprites/spr_pixel_ship_red/spr_pixel_ship_red.yy",
+    "name": "spr_pixel_ship_blue",
+    "path": "sprites/spr_pixel_ship_blue/spr_pixel_ship_blue.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "YouTube Vectors Public",
-    "path": "YouTube Vectors Public.yyp",
+    "name": "Ships",
+    "path": "folders/Ships.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_ship",

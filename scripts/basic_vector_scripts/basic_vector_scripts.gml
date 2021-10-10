@@ -70,15 +70,11 @@ function vector_zero() : vector() constructor {
     y = 0;
 }
 
-function vector_random(_length) : vector() constructor {
+function vector_random(_length = 1) : vector() constructor {
 	var _dir = random(360);
-	if (is_undefined(_length)) {
-		_length = 1;
-	}
     x = lengthdir_x(_length, _dir);
     y = lengthdir_y(_length, _dir);
 }
-
 
 //Vector Functions Don't Modify the Original Vector
 function vector_copy(_vector) {

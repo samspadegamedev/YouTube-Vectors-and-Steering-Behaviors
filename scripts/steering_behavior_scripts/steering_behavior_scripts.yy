@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "basic_vector_scripts",
+  "name": "steering_behavior_scripts",
   "tags": [],
   "resourceType": "GMScript",
 }
