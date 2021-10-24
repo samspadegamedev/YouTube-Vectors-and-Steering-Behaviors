@@ -31,7 +31,7 @@
     "path": "folders/Ships.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ship",
+  "name": "obj_seek_flee",
   "tags": [],
   "resourceType": "GMObject",
 }

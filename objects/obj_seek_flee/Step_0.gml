@@ -1,8 +1,13 @@
-/// @description Seeker 
+/// @description Seek Flee 
 
 
 //steering forces
-steering_forces.add(arrive_force(mouse_x, mouse_y, 100));
+if (keyboard_check(vk_space)) {
+	steering_forces.add(flee_force(obj_seeker.x, obj_seeker.y));
+} else {
+	steering_forces.add(seek_force(obj_seeker.x, obj_seeker.y));
+}
+
 
 //update vectors
 velocity.add(steering_forces);
