@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pixel_ship_yellow",
-    "path": "sprites/spr_pixel_ship_yellow/spr_pixel_ship_yellow.yy",
+    "name": "spr_pixel_ship_green",
+    "path": "sprites/spr_pixel_ship_green/spr_pixel_ship_green.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Ships.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_seeker",
+  "name": "obj_wander_random",
   "tags": [],
   "resourceType": "GMObject",
 }

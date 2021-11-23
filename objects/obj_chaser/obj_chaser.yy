@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pixel_ship_yellow",
-    "path": "sprites/spr_pixel_ship_yellow/spr_pixel_ship_yellow.yy",
+    "name": "spr_pixel_ship_red",
+    "path": "sprites/spr_pixel_ship_red/spr_pixel_ship_red.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,6 +23,7 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +32,7 @@
     "path": "folders/Ships.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_seeker",
+  "name": "obj_chaser",
   "tags": [],
   "resourceType": "GMObject",
 }

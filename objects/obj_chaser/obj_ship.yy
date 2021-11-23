@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pixel_ship_yellow",
-    "path": "sprites/spr_pixel_ship_yellow/spr_pixel_ship_yellow.yy",
+    "name": "spr_pixel_ship_blue",
+    "path": "sprites/spr_pixel_ship_blue/spr_pixel_ship_blue.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Ships",
-    "path": "folders/Ships.yy",
+    "name": "YouTube Vectors Public",
+    "path": "YouTube Vectors Public.yyp",
   },
   "resourceVersion": "1.0",
-  "name": "obj_seeker",
+  "name": "obj_ship",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,12 +1,9 @@
 {
-  "spriteId": {
-    "name": "spr_pixel_ship_yellow",
-    "path": "sprites/spr_pixel_ship_yellow/spr_pixel_ship_yellow.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Ships",
-    "path": "folders/Ships.yy",
+    "name": "Managers",
+    "path": "folders/Managers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_seeker",
+  "name": "game_manager",
   "tags": [],
   "resourceType": "GMObject",
 }
