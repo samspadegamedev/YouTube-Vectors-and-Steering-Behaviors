@@ -1,4 +1,4 @@
-/// Script Functions
+/// Steering Behavior Script Functions
 
 function apply_force(_force, _weight = 1) {
 	_force.multiply(_weight);
@@ -67,6 +67,79 @@ function wander_force() {
 
 }
 
+function align_force(_obj = object_index, _max_dist = 200) {
+	
+	var _vec, _count;
+	_vec = new vector_zero();
+	_count = 0;
+	
+	with (_obj) {
+		
+		if (id == other.id) continue;
+		if (point_distance(position.x, position.y, other.position.x, other.position.y) > _max_dist) continue;
+		
+		_vec.add(velocity);
+		_count += 1;
+	}
+	
+	if (_count > 0) {
+		_vec.set_magnitude(max_force);
+	}
+	
+	return _vec;
+
+}
+
+function cohesion_force(_obj = object_index, _max_dist = 200) {
+	
+	var _vec, _count;
+	_vec = new vector_zero();
+	_count = 0;
+	
+	with (_obj) {
+		
+		if (id == other.id) continue;
+		if (point_distance(position.x, position.y, other.position.x, other.position.y) > _max_dist) continue;
+		
+		_vec.add(position);
+		_count += 1;
+	}
+	
+	if (_count > 0) {
+		_vec.divide(_count);
+		_vec = seek_force(_vec.x, _vec.y);
+	}
+	
+	return _vec;
+
+}
+
+function separation_force(_obj = object_index, _max_dist = 200) {
+	
+	var _vec, _count, _vec_to;
+	_vec = new vector_zero();
+	_count = 0;
+	
+	with (_obj) {
+		
+		if (id == other.id) continue;
+		if (point_distance(position.x, position.y, other.position.x, other.position.y) > _max_dist) continue;
+		
+		_vec_to = vector_subtract(other.position, position);
+		var _dist = min(_vec_to.get_magnitude(), 200);
+		var _scale = (1 - (_dist/200));
+		_vec_to.multiply(_scale);
+		_vec.add(_vec_to);
+		_count += 1;
+	}
+	
+	if (_count > 0) {
+		_vec.set_magnitude(max_force);
+	}
+	
+	return _vec;
+
+}
 
 
 

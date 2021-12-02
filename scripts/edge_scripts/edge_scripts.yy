@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "edge_wrapping_scripts",
+  "name": "edge_scripts",
   "tags": [],
   "resourceType": "GMScript",
 }

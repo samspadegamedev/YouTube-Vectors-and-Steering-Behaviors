@@ -5,8 +5,8 @@
 if (point_distance(x, y, obj_chaser.x, obj_chaser.y) < 150) {
 	apply_force(evade_force(obj_chaser));
 } else {
-	apply_force(wander_force(), 0.9);
-	apply_force(seek_force(obj_space_station.x, obj_space_station.y));
+	apply_force(cohesion_force());
+	apply_force(wander_force(), 0.7);
 }
 
 
