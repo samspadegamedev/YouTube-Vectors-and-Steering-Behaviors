@@ -1,7 +1,8 @@
 /// Script Functions
 
 function edge_wrap() {
-
+	gml_pragma("forceinline");
+	
 	if (x > room_width) {
 		x = 0;
 		position.x = x;

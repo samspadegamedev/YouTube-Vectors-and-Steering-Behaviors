@@ -11,6 +11,8 @@ if (keyboard_check_pressed(ord("Q"))) {
 }
 
 
-if (mouse_check_button(mb_right)) {
-	instance_create_layer(mouse_x, mouse_y, "Ships", obj_flocker);
+
+if (keyboard_check_pressed(ord("F"))) {
+	window_set_position(0, 0);
 }
+

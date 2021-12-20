@@ -12,11 +12,13 @@ function vector(_x, _y) constructor {
 	}	
 	
 	static add = function(_vector) {
+		gml_pragma("forceinline");
 		x += _vector.x;
 		y += _vector.y;
 	}
 	
 	static subtract = function(_vector) {
+		gml_pragma("forceinline");
 		x -= _vector.x;
 		y -= _vector.y;
 	}
@@ -27,6 +29,7 @@ function vector(_x, _y) constructor {
 	}
 		
 	static multiply = function(_scalar) {
+		gml_pragma("forceinline");
 		x *= _scalar;
 		y *= _scalar;
 	}
@@ -37,14 +40,17 @@ function vector(_x, _y) constructor {
 	}
       
 	static get_magnitude = function() {
+		gml_pragma("forceinline");
 		return point_distance(0, 0, x, y);
     }
 	
 	static get_direction = function() {
+		gml_pragma("forceinline");
 		return point_direction(0, 0, x, y);
 	}
 
 	static normalize = function() {
+		gml_pragma("forceinline");
 		if ((x != 0) || (y != 0)) {
 			var _factor = 1/sqrt((x * x) + (y * y));
 			x = _factor * x;
@@ -53,11 +59,13 @@ function vector(_x, _y) constructor {
 	}
 	
 	static set_magnitude = function(_scalar) {
+		gml_pragma("forceinline");
 		normalize();
 		multiply(_scalar);	
 	}	
 	
 	static limit_magnitude = function(_limit) {
+		gml_pragma("forceinline");
 		if (get_magnitude() > _limit) {
 			set_magnitude(_limit);
 		}

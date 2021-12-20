@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Ships",
-    "path": "folders/Ships.yy",
+    "name": "General Ships",
+    "path": "folders/Ships/General Ships.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_chaser",
